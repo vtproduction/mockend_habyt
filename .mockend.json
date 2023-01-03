@@ -1,5 +1,5 @@
 {
-  "partners" :{
+  "posts" :{
     "_" : { "items" : 20 },
     "title" : { "loremWords": { "minLength": 5, "maxLength": 20 }},
     "content" : {"loremParagraphs": { "minLength": 200, "maxLength": 500 }},
