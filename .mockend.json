@@ -1,5 +1,10 @@
 {
-  "Post": {
-    "_": { "items": 10 },
+  "Partner" :{
+    "_" : { "items" : 20 },
+    "title" : { "loremWords": { "minLength": 5, "maxLength": 20 }},
+    "content" : {"loremParagraphs": { "minLength": 200, "maxLength": 500 }},
+    "imgUrl" : {"regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"},
+    "offer" : {"string" : {}},
+    "link" : {"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"}
   }
 }
