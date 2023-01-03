@@ -1,6 +1,7 @@
 {
   "Partner" :{
     "_" : { "items" : 20 },
+    "id": {"string": {}},
     "title" : { "loremSentences": { "minLength": 75, "maxLength": 150 }},
     "content" : {"loremParagraphs": { "minLength": 400, "maxLength": 800 }},
     "imgUrl" : {"regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"},
